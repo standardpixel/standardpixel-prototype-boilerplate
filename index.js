@@ -5,7 +5,7 @@ var port       = 3000,
 	colors     = require('colors'),
 	keys       = require(__dirname + '/keys.json'),
     app        = express(),
-	sdb        = new simpledb.SimpleDB({keyid:keys.aws.key,secret:keys.aws.secret})
+	sdb        = new simpledb.SimpleDB({keyid:keys.aws.key,secret:keys.aws.secret}),
 	app_title  = 'StandardPixel Prototype Boilerplate'; //Change this
 
 app.set('views', __dirname + '/example');
