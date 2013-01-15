@@ -9,5 +9,6 @@ setting up an environment for it. This should help me avoid that.
 To make things simple, this boilerplate assumes you will need the following:
    * Web server
    * Database connection (SimpleDB)
+   * A basic client for SimpleDB
    * Data management scripts. (list, delete, create, etc...)
    * Testing
