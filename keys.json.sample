@@ -1,6 +1,8 @@
 {
 	"aws" : {
-		"key"    : "<amazon key>",
-		"secret" : "<amazon secret>"
+		"key"           : "<amazon key>",
+		"secret"        : "<amazon secret>",
+		"domain"        : "sandbox",
+		"record_prefix" : "boilerplate_"
 	}
 }
